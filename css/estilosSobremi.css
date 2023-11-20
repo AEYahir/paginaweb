@@ -1,0 +1,243 @@
+:root{
+    --negro: #0F0F0F;
+    --gris: #232D3F;
+    --verdeFuerte: #005B41;
+    --verdeClaro: #008170;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html{
+    font-size: 62.5%;
+    background-color: white;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    color: var(--negro);
+    font-size: 3.5rem;
+}
+span{
+    color: var(--verdeFuerte);
+    font-size: 1.5rem;
+}
+
+.regresar{
+    text-decoration: none; color: black;
+}
+.regresar:hover{
+    color: #04AA6D;
+}
+
+.contenedor-general{
+    margin:3rem 15%;
+    height: 140rem;
+    margin: blue;
+    display: flex;
+    border: solid black 0.5rem;  
+}
+
+.contenedor-lateral{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    background-color: var(--verdeFuerte);
+}
+
+.contenedor-avatar{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+    border: solid black 0.5rem;
+    border-color: var(--verdeFuerte);
+}
+
+.avatar{
+    height: 75%;
+}
+
+.nombre{
+    margin: 1rem 3rem;
+    font-size: 3rem; text-align: center; justify-content: center;
+    color: white;
+}
+
+.descripcion-general{
+    margin: 1.8rem 3rem;
+    font-size: 1.6rem;  justify-content: center;
+    color: white;
+}
+
+.encabezado-lateral{
+    display: flex;
+    width: 100%;
+    background-color: rgb(1, 48, 1);
+    height: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.contenedor-icono-lateral{
+    display: flex;
+    justify-content: center;
+    margin: auto 1rem;
+    border-radius: 50%;
+    background-color: white;
+    width: 5rem;
+    height: 5rem;
+    align-items: center;
+    background-color: var(--verdeClaro);
+}
+
+.icono-lateral{
+    height: 75%;
+}
+
+.nombre-dato{
+    font-size: 2rem;
+    color: white;
+    margin: auto 7%;
+}
+
+.contenedor-iconoytexto{
+    height: 4rem;
+    width: 80%;
+    display: flex;
+    margin: 0.5rem;
+}
+
+.icono-2{
+    width: 3.5rem;
+    height: 100%;
+}
+
+.texto-dentro{
+    font-size: 1.5rem;
+    color: white;
+    margin: auto 1rem;
+}
+
+.lista-cualidades{
+    font-size: 1.5rem;
+    color: white;
+    margin: 1rem 3rem;
+}
+
+.lista-cualidades li{
+    margin-bottom: .7rem;
+}
+
+.contenedor-1{
+    width: 100%;
+    height: 38rem;
+    border-bottom: black double .5rem;
+    display: flex;
+}
+
+.contenedor-resumen{
+    display: flex;
+    flex-direction: row;
+    width: 5rem;
+    height: 90%;
+    background-color: rgb(3, 107, 98);
+    border-radius: 2rem;
+    margin: 0rem .5rem;
+    text-align: center;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.contenedor-resumen h2{
+    transform: rotate(270deg);
+    font-size: 3rem;
+    color: white;
+}
+
+.contenedor-resumen2{
+    font-size: 1.8rem;
+    text-align: justify;
+    margin: 2rem 5rem;
+    
+}
+
+.resumen{
+    margin: 1rem;
+}
+
+.contenedor-2{
+    width: 100%;
+    height: 100rem;
+    display: flex;
+}
+
+.contenedor-experiencia{
+    display: flex;
+    flex-direction: row;
+    width: 5rem;
+    height: 100%;
+    background-color: rgb(3, 107, 98);
+    border-radius: 2rem;
+    margin: 1rem .5rem;
+    text-align: center;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    white-space: nowrap;
+}
+
+.contenedor-experiencia h2{
+    transform: rotate(270deg);
+    font-size: 3rem;
+    color: white;
+}
+
+.contenedor-experiencia2{
+    height: 100%rem;
+    width: 100%;
+    margin: 2.5rem 4rem;
+}
+
+.encabezado-experiencia{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-experiencia{
+    width: 3.5rem;
+    height: 50%;
+}
+
+.escuela{
+    height: 100%;
+    width: 25rem;
+}
+
+.contenedor-experiencia3{
+    height: 20rem;
+    width: 100%;
+    margin: 2.5rem 4rem;
+    margin: 5rem auto;
+}
+

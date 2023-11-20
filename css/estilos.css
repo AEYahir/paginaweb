@@ -1,0 +1,284 @@
+:root{
+    --negro: #0F0F0F;
+    --gris: #232D3F;
+    --verdeFuerte: #005B41;
+    --verdeClaro: #008170;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html{
+    font-size: 62.5%;
+    background-color: gainsboro;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    color: var(--negro);
+    font-size: 3.5rem;
+}
+span{
+    color: #295692;
+    font-size: 1.5rem;
+}
+
+.fondo-nav{
+    background-color: black;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--negro);
+    margin: 0% 15%;
+    
+}
+
+.menu a{
+    color: white;
+    font-size: 1.5rem;
+    width: 30rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem 0;
+    text-decoration: none;
+
+}
+
+.menu a:hover{
+    background-color: #295692;
+    
+}
+
+.head-2{
+    font-size: 2.8rem;
+    color: white;
+    margin: 2.6rem 0;
+    
+}
+
+.location{
+    width: 100px;
+    height: 100px;
+    stroke: white;
+    
+}
+
+.ubicacion{
+    margin: 2.6rem;
+}
+
+
+
+.p-ubicacion{
+    margin-top: 10rem;
+    font-size: 2rem;
+    color: white;
+    display: inline;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-margen{
+    display: flex;
+    justify-content: center;
+
+}
+
+.boton{
+    background-color: black;
+    padding: 1.5rem 4.5rem;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    margin: 3rem;
+
+}
+
+.boton:hover{
+    background-color: #295692;
+    color: black;
+}
+
+.imagen-fondo{
+    
+    background-image: url(../img/fondo.jpg);
+    background-size: auto;
+    background-position-y: center;
+    
+}
+
+.color-fondo{
+    /*background-color: rgba(0, 0, 0, 0.322);*/
+    background-color: rgba(0, 0, 0, 0.341);
+    
+}
+
+.contenido-principal{
+    margin:3rem 15%;
+    /*background-color: #EEEEEE;*/
+    background-color: #0d1a2d;
+    
+    height: 105rem;
+    border-radius: 10px;
+}
+
+.sombra{
+    -webkit-box-shadow: 10px 17px 5px 0px rgba(20,17,20,0.53);
+    -moz-box-shadow: 10px 17px 5px 0px rgba(20,17,20,0.53);
+    box-shadow: 10px 17px 5px 0px rgba(20,17,20,0.53);
+}
+
+.head-color{
+    color: white;
+    padding-top: 3rem;
+}
+
+.head-3{
+    font-size: 2.8rem;
+    color: white;
+    margin: 2.6rem 0;
+    
+}
+
+.subtexto{
+    margin: 2.6rem 0;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+
+.lenguajes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    margin: 1rem 1rem;
+    
+}
+
+.icon-contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    border-radius: 50%;
+    background-color: black;
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    border: solid black 0.5rem;
+    border-color: #295692;
+
+}
+
+.icon-image{
+    stroke: white;
+    height: 50%;
+}
+
+.descripcion-lenguaje{
+    font-size: 1.5rem;
+    color: snow;
+    text-align: justify;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.boton-servicios{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.boton-servicios:hover{
+    background-color: #295692;
+
+}
+
+.formulario{
+    margin: 2rem 10rem
+}
+
+.renglon{
+    margin: 2rem 0rem;
+    display: flex;
+}
+
+.campoFormulario{
+    font-size: 1.5rem;
+    margin: auto;
+    width: 100%;
+}
+
+.campo-escribir{
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.2rem;
+    resize: none;
+}
+
+.descripcion-campo{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+
+.boton-enviar{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600; 
+    width: 16rem;
+    float: right;
+  }
+
+.boton-enviar:hover{
+    background-color: #295692;
+    color: black;
+}
+
+.contenedor-final{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:3rem 15%;
+    background-color: #295692;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

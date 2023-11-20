@@ -1,0 +1,101 @@
+:root{
+    --negro: #0F0F0F;
+    --gris: #232D3F;
+    --verdeFuerte: #005B41;
+    --verdeClaro: #008170;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html{
+    font-size: 62.5%;
+    background-color: white;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    color: var(--negro);
+    font-size: 3.5rem;
+}
+span{
+    color: var(--verdeFuerte);
+    font-size: 1.5rem;
+}
+#customers{
+    
+    font-size: 1.5rem;
+    width: 100%; /* Asegura que la tabla ocupe todo el ancho del contenido-principal */
+    max-width: 100%;
+}
+
+.regresar{
+    text-decoration: none; color: black;
+}
+.regresar:hover{
+    color: #04AA6D;
+}
+
+.contenedorEncabezado1{
+    background-color: black;
+    margin: 3rem 20%;
+    height: 15rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.contenedorEncabezado2{
+    display: flex;
+    margin: 1rem auto;
+    width: 50%;
+}
+
+.contenedorIcono{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.head-2{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    font-size: 3rem;
+}
+
+.icono{
+    width: 100px;
+    height: 100px;
+    margin: 2.6rem;
+    
+}
+
+.contenido-principal{
+    margin: 0 35rem; /* Aplica margen al contenido-principal */
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-color:beige;
+}
+
+.sombra{
+    -webkit-box-shadow: 10px 17px 5px 0px rgba(20,17,20,0.53);
+    -moz-box-shadow: 10px 17px 5px 0px rgba(20,17,20,0.53);
+    box-shadow: 10px 17px 5px 0px rgba(20,17,20,0.53);
+}
+
+

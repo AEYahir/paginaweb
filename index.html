@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/hombre.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Página web personal</title>
+</head>
+<body>
+    <h1 style="font-size: 3.5rem;">Jorge Yahir Valenzuela López <span>Alumno CUCEI</span></h1>
+    <div class="fondo-nav">
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="sobremi.html">Sobre mi</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    
+    <div class="imagen-fondo">
+        
+        <div class="color-fondo flex">
+            <h2 class="head-2">Alumno ICOM</h2>
+            <div class="ubicacion">
+                <svg class="location" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#232D3F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                  </svg>
+                <p class="p-ubicacion">Zapopan, Jalisco</p>
+            </div>
+            <div class="boton-margen">
+                <a class="boton" href="https://maps.app.goo.gl/Gq5xRMHgkWK2z42NA" target="_blank">Ubicación</a>
+    
+            </div>
+        </div>
+        
+    </div>
+    <main class="contenido-principal sombra">
+        <h2 class="head-2 head-color">Algunos de mis servicios</h2>
+        <section>
+            <div class="lenguajes">
+                <h3 class="head-3">
+                    Java Script
+                    <div class="icon-contenedor">
+                        <a class="boton-servicios" href="javascript.html">
+                            <img class="icon-image" src="img/secuencia-de-comandos-de-java.png" alt="">
+                        </a>
+                        
+                        
+                    </div>
+                    <p class="descripcion-lenguaje">Lenguaje de bajo nivel con alto control del hardware, ampliamente utilizado en sistemas y desarrollo de aplicaciones.</p>
+                </h3>
+                
+                <h3 class="head-3">
+                    Formatos CSS
+                    <div class="icon-contenedor">
+                            <a class="boton-servicios" href="estiloscss.html">
+                                <img class="icon-image" src="img/css.png" alt="">
+                            </a>
+                          
+                    </div>
+                    <p class="descripcion-lenguaje">Lenguaje de alto nivel apreciado por su legibilidad, versatilidad en desarrollo de software y aplicaciones en diversos campos.</p>
+
+                </h3>
+                <h3 class="head-3">
+                    Flexbox and Grid
+                    <div class="icon-contenedor">
+                        <a class="boton-servicios" href="flexbox.html">
+                            <img class="icon-image" src="img/secciones.png" alt="">
+                        </a>
+                    </div>
+                    <p class="descripcion-lenguaje">
+                        Lenguaje versátil y orientado a objetos, utilizado en desarrollo de software, juegos y sistemas de alto rendimiento.</p>
+                </h3>
+                
+                
+            </div>
+        </section>
+        <h2 class="head-2 head-color">Contacto</h2>
+        <h3 class="subtexto">CONTACTANOS LLENANDO TODOS LOS CAMPOS Y ENVIANDO TU INFORMACIÓN</h3>
+        <form class="formulario" action="./php/registrar.php" method="post">
+            <div class="renglon">
+                <div class="campoFormulario">
+                    <p class="descripcion-campo">Nombre</p>
+                    <input required class="campo-escribir" type="text" name="nombre" placeholder="Yahir">
+                </div>
+                <div class="campoFormulario">
+                    <p class="descripcion-campo">Telefono</p>
+                    <input required class="campo-escribir" type="text" name="tel" placeholder="123456790">
+                </div>
+            </div>
+            <div class="renglon">
+                <div class="campoFormulario">
+                    <p class="descripcion-campo">Correo</p>
+                    <input required class="campo-escribir" type="text" name="correo" placeholder="correo@ejemplo.com">
+                </div>
+            </div>
+                
+            <div class="renglon">
+                <div class="campoFormulario">
+                    <p class="descripcion-campo">Mensaje</p>
+                    <textarea required class="campo-escribir" style="height: 15rem;" name="mensaje"></textarea>
+                </div>
+            </div>
+            <input class="boton-enviar" type="submit" value="Enviar">
+            
+                
+
+
+           
+            
+           
+        </form>
+    </main>
+    
+    <div class="contenedor-final sombra">
+       <legend style="font-size: 1.5rem; color: white; margin-right: 1rem;">
+        Todos los derechos reservados. ©
+       </legend>
+    </div>
+   
+</body>
+</html>
